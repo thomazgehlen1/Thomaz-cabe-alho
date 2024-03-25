@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fffcfc; /* cor de fundo azul */
+    color: #ffffff; /* cor da fonte branca */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    margin-right: auto; /* empurra os links para a direita */
+}
+
+.logo {
+    width: 80px; /* ajuste o tamanho da logo conforme necessário */
+}
+
+.links {
+    margin-left: auto; /* empurra os links para a direita */
+}
+
+.links a {
+    color: #000000; /* cor da fonte dos links */
+    text-decoration: none;
+    margin-right: 20px; /* espaço entre os links */
+}
+
+.links a:hover {
+    text-decoration: underline; /* sublinhar ao passar o mouse */
+}
